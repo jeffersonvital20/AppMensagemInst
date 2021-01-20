@@ -1,0 +1,46 @@
+C:\Users\Desenvolvimento Web\Documents\projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Desenvolvimento Web\Documents\projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\bin\Debug\net5.0\appsettings.json
+C:\Users\Desenvolvimento Web\Documents\projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\bin\Debug\net5.0\WebSoketServer.exe
+C:\Users\Desenvolvimento Web\Documents\projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\bin\Debug\net5.0\WebSoketServer.deps.json
+C:\Users\Desenvolvimento Web\Documents\projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\bin\Debug\net5.0\WebSoketServer.runtimeconfig.json
+C:\Users\Desenvolvimento Web\Documents\projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\bin\Debug\net5.0\WebSoketServer.runtimeconfig.dev.json
+C:\Users\Desenvolvimento Web\Documents\projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\bin\Debug\net5.0\WebSoketServer.dll
+C:\Users\Desenvolvimento Web\Documents\projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\bin\Debug\net5.0\ref\WebSoketServer.dll
+C:\Users\Desenvolvimento Web\Documents\projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\bin\Debug\net5.0\WebSoketServer.pdb
+C:\Users\Desenvolvimento Web\Documents\projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\obj\Debug\net5.0\WebSoketServer.csprojAssemblyReference.cache
+C:\Users\Desenvolvimento Web\Documents\projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\obj\Debug\net5.0\WebSoketServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Desenvolvimento Web\Documents\projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\obj\Debug\net5.0\WebSoketServer.AssemblyInfoInputs.cache
+C:\Users\Desenvolvimento Web\Documents\projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\obj\Debug\net5.0\WebSoketServer.AssemblyInfo.cs
+C:\Users\Desenvolvimento Web\Documents\projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\obj\Debug\net5.0\WebSoketServer.csproj.CoreCompileInputs.cache
+C:\Users\Desenvolvimento Web\Documents\projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\obj\Debug\net5.0\WebSoketServer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Desenvolvimento Web\Documents\projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\obj\Debug\net5.0\staticwebassets\WebSoketServer.StaticWebAssets.Manifest.cache
+C:\Users\Desenvolvimento Web\Documents\projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\obj\Debug\net5.0\staticwebassets\WebSoketServer.StaticWebAssets.xml
+C:\Users\Desenvolvimento Web\Documents\projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\obj\Debug\net5.0\scopedcss\bundle\WebSoketServer.styles.css
+C:\Users\Desenvolvimento Web\Documents\projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\obj\Debug\net5.0\WebSoketServer.RazorTargetAssemblyInfo.cache
+C:\Users\Desenvolvimento Web\Documents\projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\obj\Debug\net5.0\WebSoketServer.dll
+C:\Users\Desenvolvimento Web\Documents\projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\obj\Debug\net5.0\ref\WebSoketServer.dll
+C:\Users\Desenvolvimento Web\Documents\projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\obj\Debug\net5.0\WebSoketServer.pdb
+C:\Users\Desenvolvimento Web\Documents\projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\obj\Debug\net5.0\WebSoketServer.genruntimeconfig.cache
+D:\Projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\bin\Debug\net5.0\appsettings.Development.json
+D:\Projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\bin\Debug\net5.0\appsettings.json
+D:\Projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\bin\Debug\net5.0\WebSoketServer.exe
+D:\Projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\bin\Debug\net5.0\WebSoketServer.deps.json
+D:\Projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\bin\Debug\net5.0\WebSoketServer.runtimeconfig.json
+D:\Projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\bin\Debug\net5.0\WebSoketServer.runtimeconfig.dev.json
+D:\Projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\bin\Debug\net5.0\WebSoketServer.dll
+D:\Projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\bin\Debug\net5.0\ref\WebSoketServer.dll
+D:\Projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\bin\Debug\net5.0\WebSoketServer.pdb
+D:\Projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\obj\Debug\net5.0\WebSoketServer.csprojAssemblyReference.cache
+D:\Projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\obj\Debug\net5.0\WebSoketServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\obj\Debug\net5.0\WebSoketServer.AssemblyInfoInputs.cache
+D:\Projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\obj\Debug\net5.0\WebSoketServer.AssemblyInfo.cs
+D:\Projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\obj\Debug\net5.0\WebSoketServer.csproj.CoreCompileInputs.cache
+D:\Projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\obj\Debug\net5.0\WebSoketServer.MvcApplicationPartsAssemblyInfo.cache
+D:\Projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\obj\Debug\net5.0\staticwebassets\WebSoketServer.StaticWebAssets.Manifest.cache
+D:\Projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\obj\Debug\net5.0\staticwebassets\WebSoketServer.StaticWebAssets.xml
+D:\Projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\obj\Debug\net5.0\scopedcss\bundle\WebSoketServer.styles.css
+D:\Projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\obj\Debug\net5.0\WebSoketServer.RazorTargetAssemblyInfo.cache
+D:\Projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\obj\Debug\net5.0\WebSoketServer.dll
+D:\Projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\obj\Debug\net5.0\ref\WebSoketServer.dll
+D:\Projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\obj\Debug\net5.0\WebSoketServer.pdb
+D:\Projetos\personal\WebSocketClient\WebSocketServer\WebSoketServer\obj\Debug\net5.0\WebSoketServer.genruntimeconfig.cache
