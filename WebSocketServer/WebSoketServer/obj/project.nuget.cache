@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0xJs9UKd0vPP1ZNCEbRFhH5G4oGJxYKirGNyzOOo3amC3Hd4phEgMco0COB6GqbbEjayzXuSfInzHG5AsvPWOA==",
+  "dgSpecHash": "oLppR/OC2R2mbtv3j/QKEjrszJrk7qT+jClo6Wtvt6D1KY+2FODqv2g3GACx3SqBsDgP7wgR+jBkujcYQr9jhA==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\personal\\WebSocketClient\\WebSocketServer\\WebSoketServer\\WebSoketServer.csproj",
+  "projectFilePath": "D:\\Projetos\\personal\\AppMensagemInst\\WebSocketServer\\WebSoketServer\\WebSoketServer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

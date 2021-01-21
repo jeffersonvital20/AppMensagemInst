@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\personal\\WebSocketClient\\WebSocketServer\\WebSoketServer\\WebSoketServer.csproj": {}
+    "D:\\Projetos\\personal\\AppMensagemInst\\WebSocketServer\\WebSoketServer\\WebSoketServer.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\personal\\WebSocketClient\\WebSocketServer\\WebSoketServer\\WebSoketServer.csproj": {
+    "D:\\Projetos\\personal\\AppMensagemInst\\WebSocketServer\\WebSoketServer\\WebSoketServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\personal\\WebSocketClient\\WebSocketServer\\WebSoketServer\\WebSoketServer.csproj",
+        "projectUniqueName": "D:\\Projetos\\personal\\AppMensagemInst\\WebSocketServer\\WebSoketServer\\WebSoketServer.csproj",
         "projectName": "WebSoketServer",
-        "projectPath": "D:\\Projetos\\personal\\WebSocketClient\\WebSocketServer\\WebSoketServer\\WebSoketServer.csproj",
+        "projectPath": "D:\\Projetos\\personal\\AppMensagemInst\\WebSocketServer\\WebSoketServer\\WebSoketServer.csproj",
         "packagesPath": "C:\\Users\\Jefferson\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\personal\\WebSocketClient\\WebSocketServer\\WebSoketServer\\obj\\",
+        "outputPath": "D:\\Projetos\\personal\\AppMensagemInst\\WebSocketServer\\WebSoketServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
