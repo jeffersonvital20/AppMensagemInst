@@ -56,7 +56,7 @@
         connectionUrl.value = "ws://localhost:5000";
 
         connectButton.onclick = function() {
-            debugger
+            
             stateLabel.innerHTML = "Attempting to connect...";
             socket = new WebSocket(connectionUrl.value);
             socket.onopen = function(event){
@@ -80,6 +80,7 @@
                 '<td>Client</td>'+
                 '<td>'+ htmlEscape(event.data) +'</td>'+
                 '</tr>';
+                isConnID(event.data);
             };
         };
 
@@ -101,6 +102,13 @@
                 '<td>Client</td>'+
                 '<td>'+ htmlEscape(data) +'</td>'+
                 '</tr>';
+        }
+
+        function isConnID(str){
+           
+            if (str.substring(0,7) == "ConnID:") {
+                connID.innerHTML = "ConnID: " + str.substring(8,45);
+            }
         }
 
         function htmlEscape(str){
