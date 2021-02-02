@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "oLppR/OC2R2mbtv3j/QKEjrszJrk7qT+jClo6Wtvt6D1KY+2FODqv2g3GACx3SqBsDgP7wgR+jBkujcYQr9jhA==",
+  "dgSpecHash": "wgbxEH6Fo72J6F2QioqQxTjfSvPAm5mNTNmLQNMSElbwiWY19bycpWK1cBFy5OQnHx38puv1FVcIpPV7fZHn0Q==",
   "success": true,
   "projectFilePath": "D:\\Projetos\\personal\\AppMensagemInst\\WebSocketServer\\WebSoketServer\\WebSoketServer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Jefferson\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

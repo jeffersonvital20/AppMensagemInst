@@ -67,3 +67,5 @@ D:\Projetos\personal\AppMensagemInst\WebSocketServer\WebSoketServer\obj\Debug\ne
 D:\Projetos\personal\AppMensagemInst\WebSocketServer\WebSoketServer\obj\Debug\net5.0\ref\WebSoketServer.dll
 D:\Projetos\personal\AppMensagemInst\WebSocketServer\WebSoketServer\obj\Debug\net5.0\WebSoketServer.pdb
 D:\Projetos\personal\AppMensagemInst\WebSocketServer\WebSoketServer\obj\Debug\net5.0\WebSoketServer.genruntimeconfig.cache
+D:\Projetos\personal\AppMensagemInst\WebSocketServer\WebSoketServer\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Projetos\personal\AppMensagemInst\WebSocketServer\WebSoketServer\obj\Debug\net5.0\WebSoketServer.csproj.CopyComplete

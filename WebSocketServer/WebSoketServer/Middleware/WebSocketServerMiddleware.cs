@@ -4,16 +4,19 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
+using System.Linq;
+using Newtonsoft.Json;
 
 namespace WebSoketServer.Middleware
 {
     public class WebSocketServerMiddleware
     {
         private readonly RequestDelegate _next;
-        private readonly WebSocketServerConnectionManager _manager = new WebSocketServerConnectionManager();
-        public WebSocketServerMiddleware(RequestDelegate next)
+        private readonly WebSocketServerConnectionManager _manager;
+        public WebSocketServerMiddleware(RequestDelegate next, WebSocketServerConnectionManager manager)
         {
-            _next = next; 
+            _next = next;
+            _manager = manager; 
         }
 
         public async Task InvokeAsync(HttpContext context)
@@ -25,17 +28,22 @@ namespace WebSoketServer.Middleware
 
                     string ConnID = _manager.AddSocket(webSocket);
                     await SendConnIDAsync(webSocket, ConnID);
-
+  
                     await ReceiveMessage(webSocket, async (result, buffer) =>
                     {
                         if (result.MessageType == WebSocketMessageType.Text)
                         {
                             Console.WriteLine("Mensagem Received");
                             Console.WriteLine($"Mensagem: {Encoding.UTF8.GetString(buffer, 0, result.Count)}");
+                            await RouteJSONMessageAsync(Encoding.UTF8.GetString(buffer, 0, result.Count));
                         }
                         else if(result.MessageType == WebSocketMessageType.Close)
                         {
+                            string id = _manager.GetAllSockets().FirstOrDefault(s => s.Value == webSocket).Key;
                             Console.WriteLine("Recived Close message");
+                            _manager.GetAllSockets().TryRemove(id, out WebSocket socket);
+
+                            await socket.CloseAsync(result.CloseStatus.Value, result.CloseStatusDescription, CancellationToken.None);
                             return;
                         }
                     });
@@ -63,6 +71,42 @@ namespace WebSoketServer.Middleware
 
                 handleMessage(result, buffer);
             }
+        }
+
+        private async Task RouteJSONMessageAsync(string message)
+        {
+            var routeOb = JsonConvert.DeserializeObject<dynamic>(message);
+
+            if (Guid.TryParse(routeOb.To.ToString(), out Guid guidOutput))
+            {
+                Console.WriteLine("Targeted");
+                var sock = _manager.GetAllSockets().FirstOrDefault(s => s.Key == routeOb.To.ToString());
+                if (sock.Value != null)
+                {
+                    if (sock.Value.State == WebSocketState.Open)
+                    {
+                        await sock.Value.SendAsync(Encoding.UTF8.GetBytes(routeOb.Message.ToString()), WebSocketMessageType.Text, true, CancellationToken.None);
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Invalid recipient");
+                }
+               
+            }
+            else
+            {
+                Console.WriteLine("Broadcast");
+                foreach (var sock in _manager.GetAllSockets())
+                {
+                    if (sock.Value.State == WebSocketState.Open)
+                    {
+                        await sock.Value.SendAsync(Encoding.UTF8.GetBytes(routeOb.Message.ToString()), WebSocketMessageType.Text, true, CancellationToken.None);
+                    }
+                    
+                }
+            }
+
         }
     }
 }
