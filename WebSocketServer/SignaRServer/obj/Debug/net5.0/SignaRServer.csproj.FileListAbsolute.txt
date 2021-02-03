@@ -33,3 +33,4 @@ D:\Projetos\personal\AppMensagemInst\WebSocketServer\SignaRServer\obj\Debug\net5
 D:\Projetos\personal\AppMensagemInst\WebSocketServer\SignaRServer\obj\Debug\net5.0\ref\SignaRServer.dll
 D:\Projetos\personal\AppMensagemInst\WebSocketServer\SignaRServer\obj\Debug\net5.0\SignaRServer.pdb
 D:\Projetos\personal\AppMensagemInst\WebSocketServer\SignaRServer\obj\Debug\net5.0\SignaRServer.genruntimeconfig.cache
+D:\Projetos\personal\AppMensagemInst\WebSocketServer\SignaRServer\bin\Debug\net5.0\libman.json
